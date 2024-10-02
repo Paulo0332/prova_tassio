@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='geral.css')}}">
+</head>
+<body>
+    <div class="container">
+        <section id="{{detalhe.get_id()}}">
+            <h1>{{detalhe.get_titulo()}} </h1>
+            <p>{{detalhe.get_resumo()}} </p>
+            <p>{{detalhe.get_reporter_responsavel()}} </p>
+            
+        </section>
+        
+    <div>
+    
+</body>
+</html>
